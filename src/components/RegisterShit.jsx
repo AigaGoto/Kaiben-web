@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import { useNavigate } from "react-router-dom"
 
 import { ImageList, ImageListItem, Radio, RadioGroup, FormControl ,Button, Box} from "@mui/material";
@@ -107,6 +107,7 @@ const RegisterShit = () => {
                                             src={`${imageUrl}`}
                                             srcSet={`${imageUrl}`}
                                             loading='lazy'
+                                            alt={imageUrl}
                                         />
                                         </ImageListItem>
                                     }
@@ -117,6 +118,7 @@ const RegisterShit = () => {
                                             src={`${imageUrl}`}
                                             srcSet={`${imageUrl}`}
                                             loading='lazy'
+                                            alt={imageUrl}
                                         />
                                         </ImageListItem>
                                     }
