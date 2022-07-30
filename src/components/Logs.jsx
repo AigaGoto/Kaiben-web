@@ -15,3 +15,5 @@ const Logs = () => {
         </div>
     )
 }
+
+export default Logs

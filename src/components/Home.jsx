@@ -1,18 +1,20 @@
 import React from "react";
+import {BrowserRouter, Link, Routes, Route} from "react-router-dom"
 
 import {Button} from "@mui/material"
+
 
 const Home = () => {
     
 
     return (
-        <div>
-            <Button>おすすめの食材</Button>
-            <Button>あなたの状態</Button>
-            <Button>うんこの指標</Button>
-            <Button>うんこを登録する</Button>
-            <Button>今までのうんこ</Button>
-        </div>
+            <div>
+                <Link to="/sugguestFood"><Button>おすすめの食材</Button></Link>
+                <Link to="/sugguestReason"><Button>あなたの状態</Button></Link>
+                <Link to="/indicator"><Button>うんこの指標</Button></Link>
+                <Link to="/registerShit"><Button>うんこを登録する</Button></Link>
+                <Link to="/logs"><Button>今までのうんこ</Button></Link>
+            </div>
     )
 }
 

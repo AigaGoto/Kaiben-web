@@ -2,7 +2,7 @@ import React from "react";
 
 import {Button} from "@mui/material"
 
-const SuggestReason = () => {
+const SugguestReason = () => {
     let shapeDescription = ["最高の体調です！",
                                  "冷たいものの食べ過ぎ飲み過ぎ、お腹を冷やしすぎが原因。飲食物の温度を気にしよう！",
                                  "生の卵や肉、生魚、牡蠣類を食べた覚えはない？腹痛を伴っているなら、ストレスや暴飲暴食で自律神経が乱れているのかも。落ち着いた生活をして、睡眠をちゃんと取ろう！",
@@ -28,3 +28,5 @@ const SuggestReason = () => {
         </div>
     )
 }
+
+export default SugguestReason

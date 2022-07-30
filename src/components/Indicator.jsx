@@ -14,3 +14,5 @@ const Indicator = () => {
         </div>
     )
 }
+
+export default Indicator
